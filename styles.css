@@ -308,20 +308,100 @@ body {
 }
 
 #sm-banner .banner-box{
-    background-image: url("img/banner/b2.jpg");
-    display: flex;
+    background-image: url("img/b17.jpg");
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-width: 580px;
+    display: flex;
+    align-items: flex-start;
+    min-width: 530px;
     height: 50vh;
     background-size: cover;
     background-position: center;
-    flex-direction: column;
+    padding: 30px;
+   
 }
 
-sm-banner{
+#sm-banner{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;  
+}
+
+#sm-banner h4{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2{
+    color:#fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color:#fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+}
+
+#sm-banner .banner-box:hover button{
+    background: #088178;
+    border: 1px solid #088178;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url("img/b10.jpg");
+}
+
+#banner-3 .banner-box{
+    background-image: url("img/b7.jpg");
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom:20px;
+}
+
+#banner-3 h2{
+    color:#fff;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+#banner-3 h3{
+    color:#ec544e;
+    font-size: 15px;
+    font-weight: 800;
+}
+#banner-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:0 80px;
+}
+
+#banner-3 .banner-box2{
+    background-image: url("img/b4.jpg");
+}
+#banner-3 .banner-box3{
+    background-image: url("img/b18.jpg");
 }
