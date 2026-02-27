@@ -882,5 +882,19 @@ footer .copyright {
    #blog .blog-details {
     width: 100%;
    }
-}
 
+   /* About */
+   #about-head {
+    flex-direction: column;
+    }
+    #about-head img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    #about-head div{
+        padding-left: 0;
+    }
+    #about-app .video{
+        width: 100%;
+    }
+}
